@@ -1,0 +1,132 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body bgcolor="skyblue">
+  <form action="mailto:parul.chauhan@kalvium.community" method="get" enctype="text/plain">
+
+    <h1>
+      <div align="center">Student Registeration Form</div>
+    </h1>
+    
+    <div>
+      <label for="name">First Name</label>
+      <input type="text" name="name" id="name" placeholder="user name">
+    </div>
+    <br>
+    <div>
+      <label for="name">Last Name</label>
+      <input type="text" name="name" id="name">
+    </div>
+    <br>
+    <div>
+      <label for="date">Date of Birth</label>
+      <input type="date" name="date" id="date">
+    </div>
+    <br>
+    <div>
+      Gender:
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="Male">
+      
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="Female">
+    </div>
+    <br>
+    <div>
+      <label for="email">Email ID</label>
+      <input type="email" name="email" id="email" required >
+    </div>
+    <br>
+    <div>
+      <label for="tel">Mobile Number</label>
+      <input type="tel" name="mobilenumber" id="mobilennumber">
+    </div> 
+    <br>
+    <div>
+      <label for="address">Address</label>
+      <textarea id="address" name="address"></textarea>
+    <div>
+    <br>
+    <div>
+      <label for="city">City</label>
+     <input type="text" name="city">
+    </div>
+    <br>
+    <div>
+      <label for="state">State</label>
+     <input type="text" name="state" maxlength="30">
+    </div>
+    <br>
+    <div>
+      <label for="country">Country</label>
+      <input type="text" name="coutnry" value="India" readonly>
+    </div>  
+    <br>
+    <div>
+      <label for="course">Course name</label>
+      <select name="course" id="course">
+        <option value="BE CSE">BE CSE</option>
+        <option value="BCA">BCA</option>
+        <option value="B.Com">B.Com</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="B.A">B.A</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.Arch">B.Arch</option>
+        <option value="B.Ed">B.Ed</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      Hobbies:
+      <div>
+      <label for="drawing">Drawing </label>
+      <input type="checkbox" name="drawing" id="Drawing">
+
+      <label for="painting">Painting </label>
+      <input type="checkbox" name="painting" id="painting">
+
+      <label for="singing">Singing </label>
+      <input type="checkbox" name="singing" id="singing">
+
+      <label for="dancing">Dancing </label>
+      <input type="checkbox" name="dancing" id="dancing">
+
+      <label for="reading">Reading </label>
+      <input type="checkbox" name="reading" id="reading">
+
+      <label for="travelling">Travelling </label>
+      <input type="checkbox" name="travelling" id="travelling">
+
+      <label for="others">Others</label>
+      <input type="checkbox" name="others" id="others">
+      <input type="text" name="others" maxlength="30"> 
+      </div>
+    </div> 
+    <br>
+    <div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </div> 
+
+</body>
+</html>
+
+
+
+
